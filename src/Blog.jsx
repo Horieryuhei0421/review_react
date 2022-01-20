@@ -6,8 +6,25 @@ class Blog extends React.Component {
     super(props);
     this.state = {
       inPublished: false,
-      order: 1
+      order: 1,
+      count: 0
+
     }
+  }
+
+
+  componentDidMount() {
+    document.getElementById('counter').addEventLister('click', this.countUp)
+  }
+
+  componentDidUpdate() {
+    if(this.state.count >= 10) {
+      this.setState({count: 0})
+    }
+  }
+
+  componentWillUnmount() {
+    document.getElementById('counter').removeEventLister('click', this.countUp)
   }
 
   togglePublished = () => {
@@ -16,10 +33,18 @@ class Blog extends React.Component {
     })
   };
 
+  countUp = () => {
+    this.setState({count: this.state.count + 1})
+  }
+
   render() {
     return (
       <>
-        <Article title={"sdfg"} inPublished={this.inPublished} toggle={()=> this.togglePublished()} />
+        <Article title={"sdfg"} 
+        inPublished={this.state.inPublished} 
+        toggle={()=> this.state.togglePublished()}
+        count={this.state.count}
+        />
       </>
     )
   }
