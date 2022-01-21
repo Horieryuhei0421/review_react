@@ -1,12 +1,11 @@
-import React from 'react';
-import LikeButton from './LikeButton';
+import React, {useState} from 'react';
 
-const Article = (props) => {
+const Article = () => {
+  const [isPublished, togglePublished] = useState(false);
   return (
     <div>
-      <h2>{props.title}</h2>
       <h3>Šm”F</h3>
-      <LikeButton count={props.count} />
+      <input type="checkbox" checked={isPublished} onClick={() => togglePublished(!isPublished)} />
     </div>
   )
 }
