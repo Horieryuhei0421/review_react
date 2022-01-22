@@ -2,12 +2,12 @@ import React from 'react';
 
 export function Foo() {
   return(
-    <h1>Šm”F</h1>
+    <h1>ç¢ºèª</h1>
   )
 }
 
 export function Bar() {
   return(
-    <h1>Šm”F2</h1>
+    <h1>ç¢ºèª2</h1>
   )
 }
