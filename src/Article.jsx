@@ -8,14 +8,14 @@ const Article = () => {
     countUpper(count + 1)
   }
 
-  useEffect(()=>{
-    console.log("???")
-    document.getElementById('checkbox').addEventListener('click', countUp)
-    return() => {
-      console.log("!!!")
-      document.getElementById('checkbox').removeEventListener('click', countUp)
-    }
-  })
+  // useEffect(()=>{
+  //   console.log("???")
+  //   document.getElementById('checkbox').addEventListener('click', countUp)
+  //   return() => {
+  //     console.log("!!!")
+  //     document.getElementById('checkbox').removeEventListener('click', countUp)
+  //   }
+  // })
 
   return (
     <div>
