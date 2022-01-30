@@ -1,80 +1,80 @@
 const defaultDataset = {
   "init": {
       "answers": [
-          {"content": "d–‚ğˆË—Š‚µ‚½‚¢", "nextId": "job_offer"},
-          {"content": "ƒGƒ“ƒWƒjƒA‚ÌƒLƒƒƒŠƒA‚É‚Â‚¢‚Ä‘Š’k‚µ‚½‚¢", "nextId": "consultant"},
-          {"content": "ŠwKƒRƒ~ƒ…ƒjƒeƒB‚É‚Â‚¢‚Ä’m‚è‚½‚¢", "nextId": "community"},
-          {"content": "‚¨•t‚«‡‚¢‚µ‚½‚¢", "nextId": "dating"}
+          {"content": "ä»•äº‹ã‚’ä¾é ¼ã—ãŸã„", "nextId": "job_offer"},
+          {"content": "ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ã®ã‚­ãƒ£ãƒªã‚¢ã«ã¤ã„ã¦ç›¸è«‡ã—ãŸã„", "nextId": "consultant"},
+          {"content": "å­¦ç¿’ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã«ã¤ã„ã¦çŸ¥ã‚ŠãŸã„", "nextId": "community"},
+          {"content": "ãŠä»˜ãåˆã„ã—ãŸã„", "nextId": "dating"}
       ],
-      "question": "‚±‚ñ‚É‚¿‚Í!?ƒgƒ‰ƒnƒbƒN‚Ö‚Ì‚²—pŒ‚Í‚È‚ñ‚Å‚µ‚å‚¤‚©H"
+      "question": "ã“ã‚“ã«ã¡ã¯!?ãƒˆãƒ©ãƒãƒƒã‚¯ã¸ã®ã”ç”¨ä»¶ã¯ãªã‚“ã§ã—ã‚‡ã†ã‹ï¼Ÿ"
   },
   "job_offer": {
       "answers": [
-          {"content": "WebƒTƒCƒg‚ğ§ì‚µ‚Ä‚Ù‚µ‚¢", "nextId": "website"},
-          {"content": "WebƒAƒvƒŠ‚ğŠJ”­‚µ‚Ä‚Ù‚µ‚¢", "nextId": "webapp"},
-          {"content": "©“®‰»ƒc[ƒ‹‚ğì‚Á‚Ä‚Ù‚µ‚¢", "nextId": "automation_tool"},
-          {"content": "‚»‚Ì‘¼", "nextId": "other_jobs"}
+          {"content": "Webã‚µã‚¤ãƒˆã‚’åˆ¶ä½œã—ã¦ã»ã—ã„", "nextId": "website"},
+          {"content": "Webã‚¢ãƒ—ãƒªã‚’é–‹ç™ºã—ã¦ã»ã—ã„", "nextId": "webapp"},
+          {"content": "è‡ªå‹•åŒ–ãƒ„ãƒ¼ãƒ«ã‚’ä½œã£ã¦ã»ã—ã„", "nextId": "automation_tool"},
+          {"content": "ãã®ä»–", "nextId": "other_jobs"}
       ],
-      "question": "‚Ç‚Ì‚æ‚¤‚È‚¨d–‚Å‚µ‚å‚¤‚©H"
+      "question": "ã©ã®ã‚ˆã†ãªãŠä»•äº‹ã§ã—ã‚‡ã†ã‹ï¼Ÿ"
   },
   "website": {
       "answers": [
-          {"content": "–â‚¢‡‚í‚¹‚é", "nextId": "contact"},
-          {"content": "Å‰‚Ì¿–â‚É–ß‚é", "nextId": "init"}
+          {"content": "å•ã„åˆã‚ã›ã‚‹", "nextId": "contact"},
+          {"content": "æœ€åˆã®è³ªå•ã«æˆ»ã‚‹", "nextId": "init"}
       ],
-      "question": "WebƒTƒCƒg×ì‚É‚Â‚¢‚Ä‚Å‚·‚ËBƒRƒ`ƒ‰‚©‚ç‚¨–â‚¢‡‚í‚¹‚Å‚«‚Ü‚·B"
+      "question": "Webã‚µã‚¤ãƒˆç´°ä½œã«ã¤ã„ã¦ã§ã™ã­ã€‚ã‚³ãƒãƒ©ã‹ã‚‰ãŠå•ã„åˆã‚ã›ã§ãã¾ã™ã€‚"
   },
   "webapp": {
       "answers": [
-          {"content": "–â‚¢‡‚í‚¹‚é", "nextId": "contact"},
-          {"content": "Å‰‚Ì¿–â‚É–ß‚é", "nextId": "init"}
+          {"content": "å•ã„åˆã‚ã›ã‚‹", "nextId": "contact"},
+          {"content": "æœ€åˆã®è³ªå•ã«æˆ»ã‚‹", "nextId": "init"}
       ],
-      "question": "WebƒAƒvƒŠŠJ”­‚É‚Â‚¢‚Ä‚Å‚·‚ËBƒRƒ`ƒ‰‚©‚ç‚¨–â‚¢‡‚í‚¹‚Å‚«‚Ü‚·B"
+      "question": "Webã‚¢ãƒ—ãƒªé–‹ç™ºã«ã¤ã„ã¦ã§ã™ã­ã€‚ã‚³ãƒãƒ©ã‹ã‚‰ãŠå•ã„åˆã‚ã›ã§ãã¾ã™ã€‚"
   },
   "automation_tool": {
       "answers": [
-          {"content": "–â‚¢‡‚í‚¹‚é", "nextId": "contact"},
-          {"content": "Å‰‚Ì¿–â‚É–ß‚é", "nextId": "init"}
+          {"content": "å•ã„åˆã‚ã›ã‚‹", "nextId": "contact"},
+          {"content": "æœ€åˆã®è³ªå•ã«æˆ»ã‚‹", "nextId": "init"}
       ],
-      "question": "©“®‰»ƒc[ƒ‹ŠJ”­‚É‚Â‚¢‚Ä‚Å‚·‚ËBƒRƒ`ƒ‰‚©‚ç‚¨–â‚¢‡‚í‚¹‚Å‚«‚Ü‚·B"
+      "question": "è‡ªå‹•åŒ–ãƒ„ãƒ¼ãƒ«é–‹ç™ºã«ã¤ã„ã¦ã§ã™ã­ã€‚ã‚³ãƒãƒ©ã‹ã‚‰ãŠå•ã„åˆã‚ã›ã§ãã¾ã™ã€‚"
   },
   "other_jobs": {
       "answers": [
-          {"content": "–â‚¢‡‚í‚¹‚é", "nextId": "contact"},
-          {"content": "Å‰‚Ì¿–â‚É–ß‚é", "nextId": "init"}
+          {"content": "å•ã„åˆã‚ã›ã‚‹", "nextId": "contact"},
+          {"content": "æœ€åˆã®è³ªå•ã«æˆ»ã‚‹", "nextId": "init"}
       ],
-      "question": "‚»‚Ì‘¼‚É‚Â‚¢‚Ä‚Å‚·‚ËBƒRƒ`ƒ‰‚©‚ç‚¨–â‚¢‡‚í‚¹‚Å‚«‚Ü‚·B"
+      "question": "ãã®ä»–ã«ã¤ã„ã¦ã§ã™ã­ã€‚ã‚³ãƒãƒ©ã‹ã‚‰ãŠå•ã„åˆã‚ã›ã§ãã¾ã™ã€‚"
   },
   "consultant": {
       "answers": [
-          {"content": "YouTube‚Å“®‰æ‚ğŒ©‚é", "nextId": "https://www.youtube.com/channel/UC-bOAxx-YOsviSmqh8COR0w"},
-          {"content": "ŠwKƒRƒ~ƒ…ƒjƒeƒB‚É‚Â‚¢‚Ä’m‚è‚½‚¢", "nextId": "community"},
-          {"content": "Å‰‚Ì¿–â‚É–ß‚é", "nextId": "init"}
+          {"content": "YouTubeã§å‹•ç”»ã‚’è¦‹ã‚‹", "nextId": "https://www.youtube.com/channel/UC-bOAxx-YOsviSmqh8COR0w"},
+          {"content": "å­¦ç¿’ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã«ã¤ã„ã¦çŸ¥ã‚ŠãŸã„", "nextId": "community"},
+          {"content": "æœ€åˆã®è³ªå•ã«æˆ»ã‚‹", "nextId": "init"}
       ],
-      "question": "ƒgƒ‰ƒnƒbƒN‚Í•’i‚©‚çYouTube‚ÅƒLƒƒƒŠƒA‚É‚Â‚¢‚Ä”­M‚µ‚Ä‚¢‚Ü‚·B‚Ü‚½A–l‚ª‰^‰c‚·‚éƒGƒ“ƒWƒjƒAŒü‚¯ŠwKƒRƒ~ƒ…ƒjƒeƒB“à‚Å‚à‘Š’k‚Éæ‚Á‚Ä‚¢‚Ü‚·‚æB"
+      "question": "ãƒˆãƒ©ãƒãƒƒã‚¯ã¯æ™®æ®µã‹ã‚‰YouTubeã§ã‚­ãƒ£ãƒªã‚¢ã«ã¤ã„ã¦ç™ºä¿¡ã—ã¦ã„ã¾ã™ã€‚ã¾ãŸã€åƒ•ãŒé‹å–¶ã™ã‚‹ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢å‘ã‘å­¦ç¿’ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£å†…ã§ã‚‚ç›¸è«‡ã«ä¹—ã£ã¦ã„ã¾ã™ã‚ˆã€‚"
   },
   "community": {
       "answers": [
-          {"content": "‚Ç‚ñ‚ÈŠˆ“®‚ğ‚µ‚Ä‚¢‚é‚ÌH", "nextId": "community_activity"},
-          {"content": "ƒRƒ~ƒ…ƒjƒeƒB‚ÉQ‰Á‚µ‚½‚¢", "nextId": "https://torahack.web.app/community/"},
-          {"content": "Å‰‚Ì¿–â‚É–ß‚é", "nextId": "init"}
+          {"content": "ã©ã‚“ãªæ´»å‹•ã‚’ã—ã¦ã„ã‚‹ã®ï¼Ÿ", "nextId": "community_activity"},
+          {"content": "ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã«å‚åŠ ã—ãŸã„", "nextId": "https://torahack.web.app/community/"},
+          {"content": "æœ€åˆã®è³ªå•ã«æˆ»ã‚‹", "nextId": "init"}
       ],
-      "question": "2020”N3Œ‚©‚çŠwKƒRƒ~ƒ…ƒjƒeƒB‚ğn‚ß‚Ü‚µ‚½I?WebƒGƒ“ƒWƒjƒA‚Ö‚Ì“]E‚ğ–Úw‚·lŒü‚¯‚ÉAƒvƒƒOƒ‰ƒ~ƒ“ƒO‚ğ‹³‚¦‚½‚èƒLƒƒƒŠƒA‚Ì‘Š’k‚Éæ‚Á‚Ä‚¢‚Ü‚·B"
+      "question": "2020å¹´3æœˆã‹ã‚‰å­¦ç¿’ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã‚’å§‹ã‚ã¾ã—ãŸï¼?Webã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ã¸ã®è»¢è·ã‚’ç›®æŒ‡ã™äººå‘ã‘ã«ã€ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°ã‚’æ•™ãˆãŸã‚Šã‚­ãƒ£ãƒªã‚¢ã®ç›¸è«‡ã«ä¹—ã£ã¦ã„ã¾ã™ã€‚"
   },
   "community_activity": {
       "answers": [
-          {"content": "‚³‚ç‚ÉÚ×‚ğ’m‚è‚½‚¢", "nextId": "https://youtu.be/tIzE7hUDbBM"},
-          {"content": "ƒRƒ~ƒ…ƒjƒeƒB‚ÉQ‰Á‚µ‚½‚¢", "nextId": "https://torahack.web.app/community/"},
-          {"content": "Å‰‚Ì¿–â‚É–ß‚é", "nextId": "init"}
+          {"content": "ã•ã‚‰ã«è©³ç´°ã‚’çŸ¥ã‚ŠãŸã„", "nextId": "https://youtu.be/tIzE7hUDbBM"},
+          {"content": "ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã«å‚åŠ ã—ãŸã„", "nextId": "https://torahack.web.app/community/"},
+          {"content": "æœ€åˆã®è³ªå•ã«æˆ»ã‚‹", "nextId": "init"}
       ],
-      "question": "ƒtƒƒ“ƒgƒGƒ“ƒhŒü‚¯‚Ì‹³Ş‚Ì’ñ‹ŸAƒLƒƒƒŠƒA‚â•×‹­–@‚ÉŠÖ‚·‚éƒƒ‹ƒ}ƒK‚Ì”zMAT1‚ÌƒIƒ“ƒ‰ƒCƒ“ì‹Æ‰ï‚È‚Ç‚ğŠJÃ‚µ‚Ä‚¢‚Ü‚·I\nÚ×‚ÍYouTube“®‰æ‚ÅĞ‰î‚µ‚Ä‚¢‚Ü‚·B"
+      "question": "ãƒ•ãƒ­ãƒ³ãƒˆã‚¨ãƒ³ãƒ‰å‘ã‘ã®æ•™æã®æä¾›ã€ã‚­ãƒ£ãƒªã‚¢ã‚„å‹‰å¼·æ³•ã«é–¢ã™ã‚‹ãƒ¡ãƒ«ãƒã‚¬ã®é…ä¿¡ã€é€±1ã®ã‚ªãƒ³ãƒ©ã‚¤ãƒ³ä½œæ¥­ä¼šãªã©ã‚’é–‹å‚¬ã—ã¦ã„ã¾ã™ï¼\nè©³ç´°ã¯YouTubeå‹•ç”»ã§ç´¹ä»‹ã—ã¦ã„ã¾ã™ã€‚"
   },
   "dating": {
       "answers": [
-          {"content": "DM‚·‚é", "nextId": "https://twitter.com/torahack_"},
-          {"content": "Å‰‚Ì¿–â‚É–ß‚é", "nextId": "init"}
+          {"content": "DMã™ã‚‹", "nextId": "https://twitter.com/torahack_"},
+          {"content": "æœ€åˆã®è³ªå•ã«æˆ»ã‚‹", "nextId": "init"}
       ],
-      "question": "‚Ü‚¸‚Íˆê‚Éƒ‰ƒ“ƒ`‚Å‚à‚¢‚©‚ª‚Å‚·‚©HDM‚µ‚Ä‚­‚¾‚³‚¢?"
+      "question": "ã¾ãšã¯ä¸€ç·’ã«ãƒ©ãƒ³ãƒã§ã‚‚ã„ã‹ãŒã§ã™ã‹ï¼ŸDMã—ã¦ãã ã•ã„?"
   }
 }
 
