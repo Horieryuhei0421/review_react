@@ -3,9 +3,11 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 
 
-const Answer =() => {
+const Answer =(props) => {
   return (
-    <Button variant="contained">Contained</Button>
+    <Button variant="contained">
+    {props.content}
+    </Button>
   )
 }
 
